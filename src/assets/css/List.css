@@ -16,7 +16,7 @@ button {
     margin: 5px;
 }
 .edit-btn {
-    background-color: green;
+    background-color: rgb(53, 197, 53);
 }
 .edit-btn:hover {
     background-color: darkgreen;

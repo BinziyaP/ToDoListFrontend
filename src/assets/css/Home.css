@@ -13,13 +13,13 @@ input {
 }
 button {
     padding: 10px 15px;
-    background-color: blue;
+    background-color: rgb(255, 0, 0);
     color: white;
     border: none;
     cursor: pointer;
 }
 button:hover {
-    background-color: darkblue;
+    background-color: rgb(255, 251, 25);
 }
 ul {
     list-style-type: none;

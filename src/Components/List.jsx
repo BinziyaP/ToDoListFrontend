@@ -10,7 +10,7 @@ function List() {
 
   const fetchHomepages = async () => {
     try {
-      const response = await fetch('http://localhost:5000/homepage');
+      const response = await fetch('https://todolistbackend-mi08.onrender.com/homepage');
       const data = await response.json();
       setHomepages(data);
     } catch (err) {
@@ -27,8 +27,9 @@ function List() {
             value={homepage.title} 
             disabled
           />
-          <button className="edit-btn">Edit</button>
-          <button className="close-btn">Close</button>
+         <button className="edit-btn">✏️ </button>
+         <button className="delete-btn">🗑️</button>
+
         </div>
       ))}
     </div>
